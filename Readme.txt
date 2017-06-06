@@ -1,7 +1,7 @@
 
-App uses Spring boot framework. 
+App uses Spring Boot framework. 
 
-Only run the app as application console and put the uri in your navigator
+Just run the app as application console and put the uri in your navigator
 
 http://localhost:8080/RyanTest/interconnections?departure={departure}&arrival={arrival}&departureDateTime={departureDateTime}&arrivalDateTime={arrivalDateTime}
 
