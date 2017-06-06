@@ -1,5 +1,7 @@
 
-App uses Spring Boot framework. 
+The project has been developed with Eclipse Neon.3 Release (4.6.3)
+
+The app uses Spring Boot framework. 
 
 Just run the app as application console and put the uri in your navigator
 
