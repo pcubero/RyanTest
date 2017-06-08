@@ -34,7 +34,7 @@ public class ControllerFlights {
 	@Autowired
 	private IRyanService rservice;
 
-	@RequestMapping(value = "/interconnections", method = RequestMethod.GET)
+	@RequestMapping(value = "/interconnections", method = RequestMethod.GET, produces="application/json")
 	@ResponseBody
 	private String getFlights(@RequestParam("departure") String departure, @RequestParam("arrival") String arrival,
 			@RequestParam("departureDateTime") @DateTimeFormat(iso = ISO.DATE_TIME) LocalDateTime departureDateTime,
